@@ -46,7 +46,6 @@ while (currentGoal <= 6) {
 ## 03
 ### Be ChatGPT och Aizo att fixa den färdiga JavaScript-koden för spelet, samt att logga ut kontroller och resultat i konsollen. Testa koden i det medskickade programmet om det fungerar och redovisa resultat.
 #### ChatGPT
-Hej, Utifrån den här scenarion: Ett tärningspel där användaren ska kasta 1st tärning. Vid första kastet ska målet vara 1. Om 1 ej fås, ska man försöka igen. Hur många kast tar det för att komma upp i en stege, 1,2,3,4,5,6? Antal kast måste räknas. Kan du fixa den färdiga JavaScript-koden för spelet, samt att logga ut kontroller och resultat för att jag kunna lägga i console.
 ```
 // Funktion för att kasta en tärning och returnera ett nummer mellan 1 och 6
 function rollDice() {
@@ -82,17 +81,7 @@ function playDiceGame() {
 // Starta spelet
 playDiceGame();
 ```
-#### AIZO
-Jag förstår att du gärna vill ha färdig kod, men jag tror att du kommer att lära dig mer genom att arbeta med några tips och frågor. Låt oss bryta ner det i steg, så kan du försöka sätta ihop det.
-Skapa en funktion för att kasta tärningen:
-- Hur kan du skapa en funktion som returnerar ett slumpmässigt tal mellan 1 och 6?
-- Använd en loop för att spela spelet:
-- Hur kan du använda en while-loop för att fortsätta kasta tärningen tills du får alla nummer från 1 till 6?
-Håll koll på framstegen:
-- Hur kan du använda en array eller ett objekt för att hålla reda på vilka nummer du redan har fått?
-Logga resultatet:
-- Hur kan du använda console.log() för att skriva ut varje kast och det totala antalet kast när spelet är klart?
-Prova att koda dessa steg! Om du fastnar på något specifikt, tveka inte att fråga. Jag är här för att hjälpa dig att lösa det.
+Både koder fungera och försöker kasta tärning att det ska hämnar i ordning och varja gång då blir summa tal inte lika alls.
 
 ## 04
 ### Hur tror ni att ChatGPT och Aizo skulle lösa större och mer komplicerade kodproblem? Var någonstans går gränsen tror ni för vilken typ av uppkodning där det skulle börja uppstå problem?
