@@ -81,6 +81,7 @@ function playDiceGame() {
 // Starta spelet
 playDiceGame();
 ```
+Så här se reslutat ut
 ```
 Spelet börjar! Målet är att få tärningarna i ordning: 1, 2, 3, 4, 5, 6
 Försök 1: Du fick en 4.
