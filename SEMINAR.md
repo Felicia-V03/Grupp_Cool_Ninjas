@@ -134,7 +134,9 @@ Både ChatGPT och Aizo förklara ganska lika på vad de betyder och vart det är
 
 ## 06
 ### Klista in följande prompt i ChatGPT
-Jag tror att AI eller ChatGPT generellt är lite utdaterad eller inte är så uppdaterad på de senaste reglerna och rekommendationerna som kommer och ändras ofta. Därför finns det en risk att AI föreslår utdaterade funktioner som vi egentligen inte bör använda längre, som den gör i det här fallet.   Den är heller inte medveten om att det är utdaterad, och man måste tänka mer kritiskt och inte alltid ta svaren AI:n ger som 100% sanning.  ChatGPT föreslår först en ändring och lägger också till ett "promise" längre ner i koden.  Alla tre förslagen är helt lika varandra, alla tre har "promise".
+Vi tror att AI eller ChatGPT generellt är lite utdaterad eller inte är så uppdaterad på de senaste reglerna och rekommendationerna som kommer och ändras ofta. Därför finns det en risk att AI föreslår utdaterade funktioner som vi egentligen inte bör använda längre, som den gör i det här fallet. 
+Den är heller inte medveten om att det är utdaterad, och man måste tänka mer kritiskt och inte alltid ta svaren AI:n ger som 100% sanning.  
+ChatGPT föreslår först en ändring och lägger också till ett "promise" längre ner i koden. Alla tre förslagen är helt lika varandra, alla tre har "promise".
 
 ## 07
 ### Be ChatGPT att beskriva skillnaderna mellan begreppen pattern recognition och abstraction, samt att ge exempel. Klicka därefter på er profilbild uppe i det högra hörnet, och välj därefter alternativet Anpassa ChatGPT.
@@ -186,10 +188,10 @@ console.log(returnWord("världen")); // Output: "världen"
 
 ## 10
 ### Förutom att åka dit för fusk, diskutera vilka de tre största riskerna för er som studenter är att använda er av AI verktyg för att lösa era uppgifter. 
-Kreativitet förminskar och man förlorar förmågan att tänka själv, när man inte tänker själv så blir det mer och mer svårt att tänka efter ett tag.  Ju mer man använder hjärnan själv, desto lättare blir det att tänka, då är det viktigt att man kommer på ideer själv och inte använda AI för mycket. 
-Problemlösning/debugging förmågan blir sämre pågrund av man frågar AI som Aizo och ChatGPT för att lösa problemen istället söka lösningar själv eller tänka själv. 
-Källkritik blir sämre, man lär sig kanske att lita “direkt” på AI, och svaren man får från en AI kan vara utdaterad eller fel, det är viktigt att man tänker kritisk, även om AI:n låter självsäker. 
-Man lär sig inte att koda själv, och man lär sig inte att forstå vad koden faktiskt betyder och vad den gör om man bara tar lösninger från AI, specielt om man aldrig frågar vad lösningen betyder.
+- Kreativitet förminskar och man förlorar förmågan att tänka själv, när man inte tänker själv så blir det mer och mer svårt att tänka efter ett tag.  Ju mer man använder hjärnan själv, desto lättare blir det att tänka, då är det viktigt att man kommer på ideer själv och inte använda AI för mycket. 
+- Problemlösning/debugging förmågan blir sämre pågrund av man frågar AI som Aizo och ChatGPT för att lösa problemen istället söka lösningar själv eller tänka själv. 
+- Källkritik blir sämre, man lär sig kanske att lita “direkt” på AI, och svaren man får från en AI kan vara utdaterad eller fel, det är viktigt att man tänker kritisk, även om AI:n låter självsäker. 
+- Man lär sig inte att koda själv, och man lär sig inte att forstå vad koden faktiskt betyder och vad den gör om man bara tar lösninger från AI, specielt om man aldrig frågar vad lösningen betyder.
 
 ## 11
 ### Vilka styrkor och svagheter / risker ser ni hos Github Copilot för er som studenter?
