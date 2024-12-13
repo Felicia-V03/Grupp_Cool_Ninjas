@@ -225,9 +225,8 @@ console.log(returnWord("världen")); // Output: "världen"
 
 ## 12
 ### Kan ni se några scenarion för er som studerande där Github Copilot skulle vara okej att använda?
-- Explanation av kod om jag kollaborerar med andra utvecklare och är ovan med kodnings funktion. - för test generation feature
-- Du lär dig ett nytt programmeringsspråk eller ramverk. - Gihub Copilot kommer hälpa med att förstå språket och funktioner lättare samt kan också hjälp att ge kodförslag.
-- En bugg och hur ska man lösa den. - Den kan ge oss kodförslag på hur ska man lösa bugg eller problem.
+- Explanation av kod  Exempel om du jobbar i ett projekt tillsammans med flera utvecklare och dina kollegor använder en funktion/ språk som du är ovan med och du vill inte fråga eller har inte tid att leta runt för att reda ut vad är det för funktion och hur den fungra. då AI kan vara bra alternativ för hjälpa dig nu. Fördelar är att du sparar tid och får snabb klaringar direkt.
+- Har fått en bugg och hur ska man lösa den. - Den kan ge oss kodförslag på hur ska man lösa bugg eller problem.
 
 ## 13
 ### Vad tycker ni verkar vara mest "najs" med Github Copilot?
