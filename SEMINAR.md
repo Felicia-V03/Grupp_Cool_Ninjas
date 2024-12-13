@@ -11,13 +11,13 @@ Tänka på hur vi kan bryta ner problemet:
 - Mål och stege: Vi börjar med att försöka få en 1, sedan en 2, osv. tills vi når 6.
 - Räkna kast: Håll koll på antalet kast som krävs för att nå varje siffra i stegen.
 - Här är lite pseudokod för att komma igång:
-Skapa en funktion rollDice som returnerar ett slumpmässigt tal mellan 1 och 6.
-Initiera en variabel currentGoal till 1 (målet vi försöker nå).
-Initiera en variabel rollsCount till 0 (för att räkna antalet kast).
-Medan currentGoal är mindre än eller lika med 6:
-Kasta tärningen och öka rollsCount.
-Om resultatet är lika med currentGoal, öka currentGoal med 1.
-När loopen är klar, skriv ut rollsCount.
+- Skapa en funktion rollDice som returnerar ett slumpmässigt tal mellan 1 och 6.
+- Initiera en variabel currentGoal till 1 (målet vi försöker nå).
+- Initiera en variabel rollsCount till 0 (för att räkna antalet kast).
+- Medan currentGoal är mindre än eller lika med 6:
+- Kasta tärningen och öka rollsCount.
+- Om resultatet är lika med currentGoal, öka currentGoal med 1.
+- När loopen är klar, skriv ut rollsCount.
 
 ```
 // Funktion för att simulera ett tärningskast
