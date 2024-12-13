@@ -5,6 +5,56 @@
 ## 02
 
 ## 03
+#### ChatGPT
+Hej, Utifrån den här scenarion: Ett tärningspel där användaren ska kasta 1st tärning. Vid första kastet ska målet vara 1. Om 1 ej fås, ska man försöka igen. Hur många kast tar det för att komma upp i en stege, 1,2,3,4,5,6? Antal kast måste räknas. Kan du fixa den färdiga JavaScript-koden för spelet, samt att logga ut kontroller och resultat för att jag kunna lägga i console.
+
+```
+// Funktion för att kasta en tärning och returnera ett nummer mellan 1 och 6
+function rollDice() {
+  return Math.floor(Math.random() * 6) + 1;
+}
+
+// Funktion för att spela spelet
+function playDiceGame() {
+  let target = 1;  // Målet börjar på 1 och går upp till 6
+  let rollCount = 0;  // Räknare för antalet kast
+
+  console.log("Spelet börjar! Målet är att få tärningarna i ordning: 1, 2, 3, 4, 5, 6");
+
+  // Loop för att kasta tärningen tills vi når 6
+  while (target <= 6) {
+    let rollResult = rollDice();  // Kasta tärningen
+    rollCount++;  // Öka kast-räknaren
+    
+    console.log(`Försök ${rollCount}: Du fick en ${rollResult}.`);  // Logga resultatet av varje kast
+
+    // Kolla om vi fick rätt resultat för det aktuella målet
+    if (rollResult === target) {
+      console.log(`Grattis! Du fick rätt resultat: ${target}. Nu går vi vidare till nästa nummer.`);
+      target++;  // Gå vidare till nästa mål (från 1 till 6)
+    } else {
+      console.log(`Tyvärr, inte rätt. Försök igen.`);
+    }
+  }
+
+  console.log(`Spelet är klart! Totalt antal kast: ${rollCount}.`);
+}
+
+// Starta spelet
+playDiceGame();
+```
+
+#### AIZO
+Jag förstår att du gärna vill ha färdig kod, men jag tror att du kommer att lära dig mer genom att arbeta med några tips och frågor. Låt oss bryta ner det i steg, så kan du försöka sätta ihop det.
+Skapa en funktion för att kasta tärningen:
+Hur kan du skapa en funktion som returnerar ett slumpmässigt tal mellan 1 och 6?
+Använd en loop för att spela spelet:
+Hur kan du använda en while-loop för att fortsätta kasta tärningen tills du får alla nummer från 1 till 6?
+Håll koll på framstegen:
+Hur kan du använda en array eller ett objekt för att hålla reda på vilka nummer du redan har fått?
+Logga resultatet:
+Hur kan du använda console.log() för att skriva ut varje kast och det totala antalet kast när spelet är klart?
+ Prova att koda dessa steg! Om du fastnar på något specifikt, tveka inte att fråga. Jag är här för att hjälpa dig att lösa det.
 
 ## 04
 
