@@ -81,6 +81,36 @@ function playDiceGame() {
 // Starta spelet
 playDiceGame();
 ```
+```
+Spelet börjar! Målet är att få tärningarna i ordning: 1, 2, 3, 4, 5, 6
+Försök 1: Du fick en 4.
+Tyvärr, inte rätt. Försök igen.
+Försök 2: Du fick en 1.
+Grattis! Du fick rätt resultat: 1. Nu går vi vidare till nästa nummer.
+Försök 3: Du fick en 3.
+Tyvärr, inte rätt. Försök igen.
+Försök 4: Du fick en 2.
+Grattis! Du fick rätt resultat: 2. Nu går vi vidare till nästa nummer.
+Försök 5: Du fick en 6.
+Tyvärr, inte rätt. Försök igen.
+Försök 6: Du fick en 4.
+Tyvärr, inte rätt. Försök igen.
+Försök 7: Du fick en 3.
+Grattis! Du fick rätt resultat: 3. Nu går vi vidare till nästa nummer.
+Försök 8: Du fick en 5.
+Tyvärr, inte rätt. Försök igen.
+Försök 9: Du fick en 4.
+Tyvärr, inte rätt. Försök igen.
+Försök 10: Du fick en 2.
+Tyvärr, inte rätt. Försök igen.
+Försök 11: Du fick en 5.
+Tyvärr, inte rätt. Försök igen.
+Försök 12: Du fick en 6.
+Tyvärr, inte rätt. Försök igen.
+Försök 13: Du fick en 1.
+Grattis! Du fick rätt resultat: 1. Nu går vi vidare till nästa nummer.
+```
+
 
 ## 04
 ### Hur tror ni att ChatGPT och Aizo skulle lösa större och mer komplicerade kodproblem? Var någonstans går gränsen tror ni för vilken typ av uppkodning där det skulle börja uppstå problem?
