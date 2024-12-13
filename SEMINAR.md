@@ -44,9 +44,9 @@ while (currentGoal <= 6) {
 ```
 
 ## 03
+### Be ChatGPT och Aizo att fixa den färdiga JavaScript-koden för spelet, samt att logga ut kontroller och resultat i konsollen. Testa koden i det medskickade programmet om det fungerar och redovisa resultat.
 #### ChatGPT
 Hej, Utifrån den här scenarion: Ett tärningspel där användaren ska kasta 1st tärning. Vid första kastet ska målet vara 1. Om 1 ej fås, ska man försöka igen. Hur många kast tar det för att komma upp i en stege, 1,2,3,4,5,6? Antal kast måste räknas. Kan du fixa den färdiga JavaScript-koden för spelet, samt att logga ut kontroller och resultat för att jag kunna lägga i console.
-
 ```
 // Funktion för att kasta en tärning och returnera ett nummer mellan 1 och 6
 function rollDice() {
@@ -82,10 +82,8 @@ function playDiceGame() {
 // Starta spelet
 playDiceGame();
 ```
-
 #### AIZO
 Jag förstår att du gärna vill ha färdig kod, men jag tror att du kommer att lära dig mer genom att arbeta med några tips och frågor. Låt oss bryta ner det i steg, så kan du försöka sätta ihop det.
-
 Skapa en funktion för att kasta tärningen:
 - Hur kan du skapa en funktion som returnerar ett slumpmässigt tal mellan 1 och 6?
 - Använd en loop för att spela spelet:
