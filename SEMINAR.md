@@ -225,8 +225,9 @@ console.log(returnWord("världen")); // Output: "världen"
 
 ## 12
 ### Kan ni se några scenarion för er som studerande där Github Copilot skulle vara okej att använda?
-Explanation av kod om jag kollaborerar med andra utvecklare och är ovan med kodnings funktion.
-för test generation feature
+- Explanation av kod om jag kollaborerar med andra utvecklare och är ovan med kodnings funktion. - för test generation feature
+- Du lär dig ett nytt programmeringsspråk eller ramverk. - Gihub Copilot kommer hälpa med att förstå språket och funktioner lättare samt kan också hjälp att ge kodförslag.
+- En bugg och hur ska man lösa den. - Den kan ge oss kodförslag på hur ska man lösa bugg eller problem.
 
 ## 13
 ### Vad tycker ni verkar vara mest "najs" med Github Copilot?
