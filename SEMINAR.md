@@ -46,15 +46,16 @@ playDiceGame();
 
 #### AIZO
 Jag förstår att du gärna vill ha färdig kod, men jag tror att du kommer att lära dig mer genom att arbeta med några tips och frågor. Låt oss bryta ner det i steg, så kan du försöka sätta ihop det.
+
 Skapa en funktion för att kasta tärningen:
-Hur kan du skapa en funktion som returnerar ett slumpmässigt tal mellan 1 och 6?
-Använd en loop för att spela spelet:
-Hur kan du använda en while-loop för att fortsätta kasta tärningen tills du får alla nummer från 1 till 6?
+- Hur kan du skapa en funktion som returnerar ett slumpmässigt tal mellan 1 och 6?
+- Använd en loop för att spela spelet:
+- Hur kan du använda en while-loop för att fortsätta kasta tärningen tills du får alla nummer från 1 till 6?
 Håll koll på framstegen:
-Hur kan du använda en array eller ett objekt för att hålla reda på vilka nummer du redan har fått?
+- Hur kan du använda en array eller ett objekt för att hålla reda på vilka nummer du redan har fått?
 Logga resultatet:
-Hur kan du använda console.log() för att skriva ut varje kast och det totala antalet kast när spelet är klart?
- Prova att koda dessa steg! Om du fastnar på något specifikt, tveka inte att fråga. Jag är här för att hjälpa dig att lösa det.
+- Hur kan du använda console.log() för att skriva ut varje kast och det totala antalet kast när spelet är klart?
+Prova att koda dessa steg! Om du fastnar på något specifikt, tveka inte att fråga. Jag är här för att hjälpa dig att lösa det.
 
 ## 04
 
