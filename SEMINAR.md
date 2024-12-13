@@ -255,4 +255,5 @@ Den se väldigt lätt att använda och kan använda ganska till många problem e
 
 ## 17
 ### Av de verktyg som ni letat upp samt de som tagits upp i tidigare frågor, vilket tror ni att ni skulle ha mest användning av i er roll som studerande, samt i er yrkesroll? Motivera!
-Vissa Ai vertyg som är bra att ha och ska inte får hjälp av den för mycket och inte på fel sätt som låt den jobba eller gör istället för oss. Att söka efter fakta och refereser för att stödja ditt projekt.
+- Att söka efter fakta och refereser för att stödja ditt projekt.
+- ChatGPT är integrerad inuti Copilot, samtidigt som vi också har ChatGPT chatten, och vi har mycket erfaring med ChatGPT och tror att dissa verktyg vill fortsätta att vara till stor hjälp/stöd för oss. ChatGPT är ett flexibelt verktyg som kan används på många områden, och eftersom det fortsättar utveckla sig, är vi säker på att det vill stödja oss mer senare.
