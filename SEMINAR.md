@@ -236,7 +236,8 @@ Olika “brushes” med olika funktioner, till exempel “custom” brush, där 
 
 ## 14
 ### Hur ser ni på våra roller som utvecklare i framtiden, där vissa oroliga röster höjs inför hotet om AI som skall ta över våra jobb på lång sikt? 
-Vi tror att junoir fontendtvecklare kan vara svårare att få job pågrund av företaget använder mer AI för att lösa de komplexa problem och samtidig kan minska personalkostnader i form av företaget har mindre behov av nya anställda i de små och mellan stora företag.
+- Vi tror att junoir fontendtvecklare kan vara svårare att få job pågrund av företaget använder mer AI för att lösa de komplexa problem och samtidig kan minska personalkostnader i form av företaget har mindre behov av nya anställda i de små och mellan stora företag.
+- På andra sida kan vara positiv att AI är ju ett verktyg som kan hjälpa oss och lära oss på nya saker och teknik. När man kommer ut till arbetliv betyder att vi är redo att anpassa oss till de verktygen som arbetsgivare använder i sitt företag. Samtidig förstår vi hur man använder AI mer försvarligt.
 
 ## 15
 ### Vilka risker ser ni med att använda sig av AI som en källa för kodskrivande i yrkeslivet?
