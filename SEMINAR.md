@@ -38,12 +38,56 @@ rgba(0, 0, 255, .2) - Detta är skuggans färg, i detta fall blå med 20% opacit
 Både ChatGPT och Aizo förklara ganska lika på vad de betyder och vart det är men i ChatGPT förklara de även hur kan man också använda. Så Aizo förklara på den enkel sätt och ChatGPT förklara också på enkel men visa också hur kan man använda mer av koden.
 
 ## 06
+### Klista in följande prompt i ChatGPT
+Jag tror att AI eller ChatGPT generellt är lite utdaterad eller inte är så uppdaterad på de senaste reglerna och rekommendationerna som kommer och ändras ofta. Därför finns det en risk att AI föreslår utdaterade funktioner som vi egentligen inte bör använda längre, som den gör i det här fallet.   Den är heller inte medveten om att det är utdaterad, och man måste tänka mer kritiskt och inte alltid ta svaren AI:n ger som 100% sanning.  ChatGPT föreslår först en ändring och lägger också till ett "promise" längre ner i koden.  Alla tre förslagen är helt lika varandra, alla tre har "promise".
 
 ## 07
+### Be ChatGPT att beskriva skillnaderna mellan begreppen pattern recognition och abstraction, samt att ge exempel. Klicka därefter på er profilbild uppe i det högra hörnet, och välj därefter alternativet Anpassa ChatGPT.
+Efter hade jämförat på resultatet av sökningen på två olika profiler ansåg vi att Chat GPT valde språknivå på två olika sätt vilken passar till olika profilen. Det är lättare begreppet och exempel i den andra frågan.
 
 ## 08
+### Kan du skapa en funktion som tar emot ett ord och returnerar ordet med en stor bokstav i början, samt efter alla mellanslag och bindestreck?
+
+```
+function capitalizeWords(input) {
+    return input.replace(/(?:^|[\s-])\S/g, function(match) {
+        return match.toUpperCase();
+    });
+}
+
+// Exempelanvändning
+console.log(capitalizeWords("hej världen")); // Output: "Hej Världen"
+console.log(capitalizeWords("detta-är-en-test")); // Output: "Detta-Är-En-Test"
+console.log(capitalizeWords("fler exempel här")); // Output: "Fler Exempel Här"
+```
+
+### Kan du skapa en funktion som tar emot ett ord och returnerar ordet?
+Om du bara vill ha en funktion som returnerar ett ord utan någon särskild manipulation kan vi skapa en enkel funktion som tar emot ett ord och returnerar det som det är:
+
+```
+function returnWord(word) {
+    return word;
+}
+
+// Exempelanvändning
+console.log(returnWord("hej")); // Output: "hej"
+console.log(returnWord("världen")); // Output: "världen"
+```
 
 ## 09
+### I vilka scenarion kan ni som studenter känna att det är okej att be AI om hjälp? Och i vilka scenarion är det inte okej?
+
+#### Det är okej:
+- Att få råd, som studiehjälp, ideer eller du kan fråga om ting du funderar på eller du kan använda AI:n att lära nya saker. 
+- Få hälp med lösa vissa problemer, om koden  inte  fungerar och du inte hittar vad som är fel, det kan hända att du har jobbat länge og du blir “blind”, du ser kanske inte problemer när du är trött till exempel, då er AI ett bra verktyg för att “se” bättre eller få bettre koll igen. 
+- Att få tydligare förklaringar på vissa komplexa frågor, exemplevis om du undrar om python och JavaScript kan jobba tillsammans eller inte? och hur fungerar det? 
+- Kan få hjälp av förklaringar som anpassar till kundskap nivå för både ämnet och språket, och om du inte förstår så kan du be AI:n om att omformulera, eller om du hittar en svårläst artikkel så kan du be AI:n om att skriva det på ett sätt som du själv förstår. 
+- Det kan spara mycket tid - att söka, scrolla, leta och läsa på nätet kan ta extremt mycket tid, med en AI kan du fråga direkt, be den att svare bara på det du behöver hjälp med, utan at du måste använda mycket tid på att läsa orelevanta saker. 
+- Tilgängelighet: för personer som har svårt att läsa, fokusera eller tappar fokus lätt, är AI:n ett bra verktyg för att göra ting lättare att läsa, kanske kan AI:n korta ner texten, eller du kan tilpassa svaren på sett som du själv behöver.  
+#### Det är inte okej:
+- Lösa hela uppgifter, du lär dig inte, du forstår kanske inte vad den gör, och du kan inte argumentera för varför du valde just den koden. 
+- Koda upp allt åt dig, det blir lättare problemer och konflikter senare om du skulle ändra nonting. Om AI:n har löst problemet åt dig, så blir det jättesvårt att gå tillbaka för att lösa det, samtidigt blir kanske inte resultatet helt som du hade önskad när du inte gör det själv. 
+- Klistra in förslag utan att veta vad det betyder eller vad koden gör. Gör research och be AI:n lära dig vad koden innebär, eventuelt googla eller använd andra sidor.
 
 ## 10
 ### Förutom att åka dit för fusk, diskutera vilka de tre största riskerna för er som studenter är att använda er av AI verktyg för att lösa era uppgifter. 
@@ -53,15 +97,45 @@ Källkritik blir sämre, man lär sig kanske att lita “direkt” på AI, och s
 Man lär sig inte att koda själv, och man lär sig inte att forstå vad koden faktiskt betyder och vad den gör om man bara tar lösninger från AI, specielt om man aldrig frågar vad lösningen betyder.
 
 ## 11
+### Vilka styrkor och svagheter / risker ser ni hos Github Copilot för er som studenter?
+#### Styrkor:
+ta mindre tid att lösa uppgifter med hjälp av kodnings förslaget. 
+kan hitta nya tekniker för att lösa ett problem.  
+#### Svagheter / Risker:
+lärdom försämras då man inte gör/skriver det själv, eller hittar på lösningarna själv.
+kompetens / färdigheter församras.
+kan minska din förmågan att problemslösa. 
+du blir berorende på AI när du använder den för ofta, du orkar kanske inte tänka själv.
 
 ## 12
+### Kan ni se några scenarion för er som studerande där Github Copilot skulle vara okej att använda?
+Explanation av kod om jag kollaborerar med andra utvecklare och är ovan med kodnings funktion.
+för test generation feature
 
 ## 13
+### Vad tycker ni verkar vara mest "najs" med Github Copilot?
+Copilot kommer med kodning förslag, fungerar lite som parprogrammering som kan hjälpa oss att vara mer effektiv i vår kodning 
+Gör det lättare att “starta hjärnan” och komma på flera ideer om man inte har ideer från början 
+Olika “brushes” med olika funktioner, till exempel “custom” brush, där man kan skriva /prompta vad den exakt ska göra
 
 ## 14
+### Hur ser ni på våra roller som utvecklare i framtiden, där vissa oroliga röster höjs inför hotet om AI som skall ta över våra jobb på lång sikt? 
+Vi tror att junoir fontendtvecklare kan vara svårare att få job pågrund av företaget använder mer AI för att lösa de komplexa problem och samtidig kan minska personalkostnader i form av företaget har mindre behov av nya anställda i de små och mellan stora företag.
 
 ## 15
+### Vilka risker ser ni med att använda sig av AI som en källa för kodskrivande i yrkeslivet?
+Man blir beroende på AI och det kan leda till att sina färdigheter blir minskad. 
+Man bidrar till att sprida ett problem: att man själv använder AI för att arbeta kanske gör att andra också börjar göra det. Om det sprider sig för mycket kommer vi så småningom att ha programmerare som inte programmerar särskilt mycket själva, utan snarare "promptare" på arbetsmarknaden. Vi gör det mer accepterat att använda AI istället för att tänka själv.
 
 ## 16
+### Vilka andra AI tjänster kan vara relevanta för oss utvecklare att känna till och använda oss utav. Leta reda på 3 tjänster och skriv 3-4 menigar om vardera.
+#### Codepal
+Det kan man får hjälp med koder i flera olika språker samt kan också skapa upp koden åt oss. Ganska lätt att använda bara välja språken och kommando på vad ska de skapa för kod.
+#### Replit GhostWriter
+Den här AI vertyg är ganska ny men se också lätt att använda. Den kommer hjälpa till med förklara koden och ge råd. Den kan skriva hela koden också. Men den fungera bara i Replit som är deras program så den kan inte använda i Visual Studio Code så den kan vara nackdelen.
+#### Codeium
+Den se väldigt lätt att använda och kan använda ganska till många problem eller med koder. Codeium kan både ger råd eller hjälpa till med  skriva upp hela koden. Kan koppla direkt med Visual Studio Code som underlätt vi som kodar att öppna flera AI program när man ska kodar.
 
 ## 17
+### Av de verktyg som ni letat upp samt de som tagits upp i tidigare frågor, vilket tror ni att ni skulle ha mest användning av i er roll som studerande, samt i er yrkesroll? Motivera!
+Att söka efter fakta och refereser för att stödja ditt projekt.
