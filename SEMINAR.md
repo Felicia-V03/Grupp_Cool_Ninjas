@@ -46,6 +46,11 @@ Både ChatGPT och Aizo förklara ganska lika på vad de betyder och vart det är
 ## 09
 
 ## 10
+### Förutom att åka dit för fusk, diskutera vilka de tre största riskerna för er som studenter är att använda er av AI verktyg för att lösa era uppgifter. 
+Kreativitet förminskar och man förlorar förmågan att tänka själv, när man inte tänker själv så blir det mer och mer svårt att tänka efter ett tag.  Ju mer man använder hjärnan själv, desto lättare blir det att tänka, då är det viktigt att man kommer på ideer själv och inte använda AI för mycket. 
+Problemlösning/debugging förmågan blir sämre pågrund av man frågar AI som Aizo och ChatGPT för att lösa problemen istället söka lösningar själv eller tänka själv. 
+Källkritik blir sämre, man lär sig kanske att lita “direkt” på AI, och svaren man får från en AI kan vara utdaterad eller fel, det är viktigt att man tänker kritisk, även om AI:n låter självsäker. 
+Man lär sig inte att koda själv, och man lär sig inte att forstå vad koden faktiskt betyder och vad den gör om man bara tar lösninger från AI, specielt om man aldrig frågar vad lösningen betyder.
 
 ## 11
 
