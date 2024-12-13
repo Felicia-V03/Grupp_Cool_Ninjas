@@ -97,6 +97,12 @@ Logga resultatet:
 Prova att koda dessa steg! Om du fastnar på något specifikt, tveka inte att fråga. Jag är här för att hjälpa dig att lösa det.
 
 ## 04
+### Hur tror ni att ChatGPT och Aizo skulle lösa större och mer komplicerade kodproblem? Var någonstans går gränsen tror ni för vilken typ av uppkodning där det skulle börja uppstå problem?
+
+#### ChatGPT
+Vi tror att Chat GPT kan lösa komplicerade kodproblem, eftersom Chat GPT har utvecklat hela tiden och den en av de största AI-tjänst nu för tiden. 
+#### Aizo
+Vi tror att Aizo är uppbyggd med en begränsad vilkor eller funktioner som just nu har hen mest fokus i områden såsom HTML, CSS, UX, UI, Figma, JavaScript och datalogiskt tänkande.
 
 ## 05
 ### Klistra in nedanstående CSS och be ChatGPT och Aizo att förklara vad som händer.
