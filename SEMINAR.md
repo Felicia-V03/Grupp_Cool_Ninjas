@@ -81,7 +81,6 @@ function playDiceGame() {
 // Starta spelet
 playDiceGame();
 ```
-Både koder fungera och försöker kasta tärning att det ska hämnar i ordning och varja gång då blir summa tal inte lika alls.
 
 ## 04
 ### Hur tror ni att ChatGPT och Aizo skulle lösa större och mer komplicerade kodproblem? Var någonstans går gränsen tror ni för vilken typ av uppkodning där det skulle börja uppstå problem?
