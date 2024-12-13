@@ -6,35 +6,41 @@ Vi ser ingen skillnader.
 
 ## 02
 ### Be ChatGPT och Aizo att utifrån sina skapade flödesscheman även skapa pseudokod för spelet. Ser båda svaren likadana ut, eller hur skiljer de sig åt? Klista in ett av svaren och skriv från vilken tjänst lösningen kommer från.
+Självklart!  Det låter som ett spännande projekt. För att börja, låt oss tänka på hur vi kan bryta ner problemet:
+Tärningskastet: Vi behöver en funktion som simulerar ett tärningskast och returnerar ett värde mellan 1 och 6.
+Mål och stege: Vi börjar med att försöka få en 1, sedan en 2, osv. tills vi når 6.
+Räkna kast: Håll koll på antalet kast som krävs för att nå varje siffra i stegen.
+ Här är lite pseudokod för att komma igång:
+Skapa en funktion rollDice som returnerar ett slumpmässigt tal mellan 1 och 6.
+Initiera en variabel currentGoal till 1 (målet vi försöker nå).
+Initiera en variabel rollsCount till 0 (för att räkna antalet kast).
+Medan currentGoal är mindre än eller lika med 6:
+Kasta tärningen och öka rollsCount.
+Om resultatet är lika med currentGoal, öka currentGoal med 1.
+När loopen är klar, skriv ut rollsCount.
 
 ```
-// Pseudokod för ett tärningsspel i JavaScript
-
-// Funktion för att simulera tärningskast
-function rollDie() {
-    return Math.floor(Math.random() * 6) + 1;
+// Funktion för att simulera ett tärningskast
+function rollDice() {
+    // Returnera ett slumpmässigt tal mellan 1 och 6
 }
 
-// Funktion för att spela spelet
-function playGame() {
-    let currentTarget = 1; // Målvärde börjar på 1
-    let rollCount = 0;    // Räknare för antal kast
+// Variabel för att hålla reda på nuvarande mål
+let currentGoal = 1;
 
-    while (currentTarget <= 6) { // Stegen 1-6
-        let roll;
-        do {
-            roll = rollDie(); // Kasta tärningen
-            rollCount++;     // Öka antalet kast
-        } while (roll !== currentTarget); // Fortsätt tills vi träffar målvärdet
+// Variabel för att räkna antalet kast
+let rollsCount = 0;
 
-        currentTarget++; // Gå till nästa steg i stegen
-    }
+// Loop tills vi når mål 6
+while (currentGoal <= 6) {
+    // Kasta tärningen
+    // Öka rollsCount
 
-    return rollCount; // Returnera antal kast som behövdes
+    // Om tärningskastet är lika med currentGoal
+        // Öka currentGoal med 1
 }
 
-// Exempelanvändning
-console.log("Antal kast för att klara spelet:", playGame());
+// Skriv ut antalet kast
 ```
 
 ## 03
