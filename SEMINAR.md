@@ -1,8 +1,41 @@
 # AI Frågorna
 
 ## 01
+### Be ChatGPT och AIZO att applicera de fyra datalogiska delprocesserna på tärningsspelet Stegen från veckans övningskompendium. Skiljer sig svaren åt, och isåfall på vilket/vilka sätt?
+Vi ser ingen skillnader.
 
 ## 02
+### Be ChatGPT och Aizo att utifrån sina skapade flödesscheman även skapa pseudokod för spelet. Ser båda svaren likadana ut, eller hur skiljer de sig åt? Klista in ett av svaren och skriv från vilken tjänst lösningen kommer från.
+
+```
+// Pseudokod för ett tärningsspel i JavaScript
+
+// Funktion för att simulera tärningskast
+function rollDie() {
+    return Math.floor(Math.random() * 6) + 1;
+}
+
+// Funktion för att spela spelet
+function playGame() {
+    let currentTarget = 1; // Målvärde börjar på 1
+    let rollCount = 0;    // Räknare för antal kast
+
+    while (currentTarget <= 6) { // Stegen 1-6
+        let roll;
+        do {
+            roll = rollDie(); // Kasta tärningen
+            rollCount++;     // Öka antalet kast
+        } while (roll !== currentTarget); // Fortsätt tills vi träffar målvärdet
+
+        currentTarget++; // Gå till nästa steg i stegen
+    }
+
+    return rollCount; // Returnera antal kast som behövdes
+}
+
+// Exempelanvändning
+console.log("Antal kast för att klara spelet:", playGame());
+```
 
 ## 03
 #### ChatGPT
