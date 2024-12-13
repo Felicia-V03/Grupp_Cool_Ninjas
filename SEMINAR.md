@@ -254,4 +254,4 @@ Den se väldigt lätt att använda och kan använda ganska till många problem e
 
 ## 17
 ### Av de verktyg som ni letat upp samt de som tagits upp i tidigare frågor, vilket tror ni att ni skulle ha mest användning av i er roll som studerande, samt i er yrkesroll? Motivera!
-Att söka efter fakta och refereser för att stödja ditt projekt.
+Vissa Ai vertyg som är bra att ha och ska inte får hjälp av den för mycket och inte på fel sätt som låt den jobba eller gör istället för oss. Att söka efter fakta och refereser för att stödja ditt projekt.
